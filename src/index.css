@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: rgb(202, 202, 202);
+  background-color: rgba(221, 221, 221, 0.486);
 }
 
 * {
@@ -28,10 +28,38 @@ img {
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	row-gap: 10px;
+  justify-content: center;
 }
 
-.row > * {
-	padding: 10px 10px;
-	width: 100%;
+.col {
+  width: 50%;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px ;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  color: rgb(48, 48, 48);
+}
+
+.card-title{
+  margin: 10px;
+}
+
+.card-body{
+  margin: 10px;
+}
+
+.btn {
+  color: white;
+  background-color: orange;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
 }
