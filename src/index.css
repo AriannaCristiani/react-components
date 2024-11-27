@@ -1,3 +1,37 @@
+/* reset */
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body{
+  background-color: rgb(202, 202, 202);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* layout */
+.container {
+	max-width: 1024px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+}
+
+.row > * {
+	padding: 10px 10px;
+	width: 100%;
 }
